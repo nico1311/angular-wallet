@@ -1,0 +1,11 @@
+@use '~@angular/material' as mat;
+@use '../../../_variables' as variables;
+
+.app-footer {
+  background: mat.get-color-from-palette(variables.$primary-palette, '500');
+  padding: 1rem;
+}
+
+.app-footer > p {
+  text-align: center;
+}

@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wallet-app';
+
+  events: string[] = [];
+  opened: boolean = false;
 }

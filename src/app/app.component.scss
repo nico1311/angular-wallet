@@ -1,0 +1,11 @@
+.App {
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
