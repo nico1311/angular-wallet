@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'wallet-app';
+  title = 'WalletApp';
 
   events: string[] = [];
   opened: boolean = false;
