@@ -16,6 +16,9 @@ import { SharedModule } from './components/shared/shared.module';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 
+import { NgxIndexedDBModule } from 'ngx-indexed-db';
+import { dbConfig } from './database/dbConfig';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +41,8 @@ import { FooterComponent } from './components/layout/footer/footer.component';
     // @angular/material
     MatExpansionModule,
     MatToolbarModule,
-    MatSidenavModule
+    MatSidenavModule,
+    NgxIndexedDBModule.forRoot(dbConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
